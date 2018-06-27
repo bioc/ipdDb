@@ -14,7 +14,7 @@ getReference(x, allele)
 \item{allele}{The alleles of interest as a character vector.}
 }
 \value{
-A \code{\link[Biostrings]{DNAStringSet}} object with all references.
+A \code{\link[Biostrings:XStringSet-class]{Biostrings:DNAStringSet}} object with all references.
 }
 \description{
 Get the reference sequences for alleles.

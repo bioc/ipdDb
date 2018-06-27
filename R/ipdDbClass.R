@@ -3,13 +3,13 @@
 
 #' The database class for storing allele data from IPD.
 #' 
-#' This class extends the \code{\link[AnnotationDbi]{AnnDbObj}} 
+#' This class extends the \code{\link[AnnotationDbi:AnnDbObj-objects]{AnnotationDbi:AnnDbObj}} 
 #' object by higher level methods for sequence and annotation retrieval.
 #' blubb
 #' 
 #' @aliases IpdDb 
 #' @rdname IpdDb
-#' @seealso \code{\link[AnnotationDbi]{AnnDbObj}}
+#' @seealso \code{\link[AnnotationDbi:AnnDbObj-objects]{AnnotationDbi:AnnDbObj}}
 #' @slot getDbVersion() Get the version of the original ipd database
 #' @slot getLoci() get all loci from a database, see 
 #'   \code{\link{getLoci}}.
@@ -133,7 +133,7 @@ setGeneric("getReference", signature = "x", function(x, allele) {
 #' @usage getReference(x, allele)
 #' @param x The database connection; an \code{\link{IpdDb}} object.
 #' @param allele The alleles of interest as a character vector.
-#' @return A \code{\link[Biostrings]{DNAStringSet}} object with all references.
+#' @return A \code{\link[Biostrings:XStringSet-class]{Biostrings:DNAStringSet}} object with all references.
 #' @examples
 #' ## Load the database 
 #' hla <- loadHlaData()
@@ -161,7 +161,7 @@ setGeneric("getStructure", signature = "x", function(x, allele) {
 #' @usage getStructure(x, allele)
 #' @param x The database connection; an \code{\link{IpdDb}} object.
 #' @param allele The alleles of interest as a character vector.
-#' @return A \code{\link[GenomicRanges]{GRanges}} object with all gene
+#' @return A \code{\link[GenomicRanges:GRanges-class]{GenomicRanges:GRanges}} object with all gene
 #'   structures.
 #' @examples
 #' ## Load the database 
@@ -193,7 +193,7 @@ setGeneric("getClosestComplete", signature = "x", function(x, allele,
 #' @param x The database connection; an \code{\link{IpdDb}} object.
 #' @param allele A single allele as a string.
 #' @param locus optional parameter used if the allele identifier is not found.
-#' @return A \code{\link[Biostrings]{DNAStringSet}} object with the sequence 
+#' @return A \code{\link[Biostrings:XStringSet-class]{Biostrings:DNAStringSet}} object with the sequence 
 #' of the closest full-length allele.
 #' @examples
 #' ## Load the database 

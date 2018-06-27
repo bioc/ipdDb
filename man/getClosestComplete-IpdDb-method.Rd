@@ -16,7 +16,7 @@ getClosestComplete(x, allele, locus = NULL)
 \item{locus}{optional parameter used if the allele identifier is not found.}
 }
 \value{
-A \code{\link[Biostrings]{DNAStringSet}} object with the sequence 
+A \code{\link[Biostrings:XStringSet-class]{Biostrings:DNAStringSet}} object with the sequence 
 of the closest full-length allele.
 }
 \description{
