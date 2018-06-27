@@ -8,9 +8,8 @@
 #' hla <- loadHlaData()
 #' @export
 loadHlaData <- function() {
-  accNumber <- "NotYetKnown"
-  dbfile <- .getData(accNumber)
-  .loadDatabase(dbfile)
+  accNumber <- "AH63658"
+  .getData(accNumber)
 }
 
 #' Load the IPD KIR database
@@ -22,18 +21,13 @@ loadHlaData <- function() {
 #' kir <- loadKirData()
 #' @export
 loadKirData <- function() {
-  accNumber <- "notYetKnown"
-  dbfile <- .getData(accNumber)
-  .loadDatabase(dbfile)
+  accNumber <- "AH63659"
+  .getData(accNumber)
 }
 
 
 ### Helper ###
-.loadDatabase <- function(dbfile) {
-  assert_that(file.exists(dbfile))
-  loadDb(dbfile)
-}
 .getData <- function(accNumber) {
   hub <- AnnotationHub()
-  hub[["accNumber"]]
+  hub[[accNumber]]
 }
