@@ -4,10 +4,13 @@ ipdDb
 Database package of HLA and KIR alleles from the 
 [IPD IMGT/HLA](https://www.ebi.ac.uk/ipd/imgt/hla/) and 
 [IPD KIR](https://www.ebi.ac.uk/ipd/kir/) database.
+
 Reference:
 
 >Robinson J, Maccari G, Marsh SGE, Walter L, Blokhuis J, Bimber B, Parham P, De Groot NG, Bontrop RE, Guethlein LA, and Hammond JA
+
 >KIR Nomenclature in non-human species
+
 >Immunogenetics (2018), in preparation
 
 
