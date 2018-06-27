@@ -2,7 +2,7 @@ Package: ipdDb
 Title: IPD IMGT/HLA and IPD KIR database for Homo sapiens
 Description: All alleles from the IPD IMGT/HLA and IPD KIR database for 
   Homo sapiens.
-Version: 0.99.4
+Version: 0.99.5
 Author: Steffen Klasberg
 Maintainer: Steffen Klasberg <klasberg@dkms-lab.de>
 Depends: R (>= 3.5.0), methods, AnnotationDbi (>= 1.43.1), AnnotationHub
