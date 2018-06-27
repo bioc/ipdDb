@@ -38,7 +38,7 @@ select(x, keys, columns, keytype, ...)
 character vector (keys, columns, keytypes) or a data.frame (select).
 }
 \description{
-This class extends the \code{\link[AnnotationDbi:AnnDbObj-objects]{AnnotationDbi:AnnDbObj}} 
+This class extends the \code{\link[AnnotationDbi]{AnnDbObj-objects}} 
 object by higher level methods for sequence and annotation retrieval.
 blubb
 
@@ -91,5 +91,5 @@ res <- select(hla, keys, cols, kt)
   
 }
 \seealso{
-\code{\link[AnnotationDbi:AnnDbObj-objects]{AnnotationDbi:AnnDbObj}}
+\code{\link[AnnotationDbi]{AnnDbObj-objects}}
 }

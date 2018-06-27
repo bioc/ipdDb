@@ -3,13 +3,13 @@
 
 #' The database class for storing allele data from IPD.
 #' 
-#' This class extends the \code{\link[AnnotationDbi:AnnDbObj-objects]{AnnotationDbi:AnnDbObj}} 
+#' This class extends the \code{\link[AnnotationDbi]{AnnDbObj-objects}} 
 #' object by higher level methods for sequence and annotation retrieval.
 #' blubb
 #' 
 #' @aliases IpdDb 
 #' @rdname IpdDb
-#' @seealso \code{\link[AnnotationDbi:AnnDbObj-objects]{AnnotationDbi:AnnDbObj}}
+#' @seealso \code{\link[AnnotationDbi]{AnnDbObj-objects}}
 #' @slot getDbVersion() Get the version of the original ipd database
 #' @slot getLoci() get all loci from a database, see 
 #'   \code{\link{getLoci}}.
