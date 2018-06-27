@@ -1,0 +1,17 @@
+Package: ipdDb
+Title: IPD IMGT/HLA and IPD KIR database for Homo sapiens
+Description: All alleles from the IPD IMGT/HLA and IPD KIR database for 
+  Homo sapiens.
+Version: 0.99.0
+Author: Steffen Klasberg
+Maintainer: Steffen Klasberg <klasberg@dkms-lab.de>
+Depends: R (>= 3.5.0), methods, AnnotationDbi (>= 1.43.1), AnnotationHub
+Imports: Biostrings, GenomicRanges, RSQLite, DBI, IRanges, stats, assertthat
+License: Artistic-2.0
+organism: Homo sapiens
+species: Homo sapiens
+biocViews: AnnotationData, Homo_sapiens
+Suggests: knitr,
+    rmarkdown,
+    testthat
+RoxygenNote: 6.0.1
