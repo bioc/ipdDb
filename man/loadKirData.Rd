@@ -13,5 +13,6 @@ an \code{\link{IpdDb}} object containing the database.
 Load the IPD KIR database
 }
 \examples{
-hla <- loadKirData()
+## Load the KIR database
+kir <- loadKirData()
 }

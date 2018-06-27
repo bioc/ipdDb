@@ -161,7 +161,7 @@ setGeneric("getStructure", signature = "x", function(x, allele) {
 #' @usage getStructure(x, allele)
 #' @param x The database connection; an \code{\link{IpdDb}} object.
 #' @param allele The alleles of interest as a character vector.
-#' @return A \code{\link[GenomicAlignments]{GAlignments}} object with all gene
+#' @return A \code{\link[GenomicRanges]{GRanges}} object with all gene
 #'   structures.
 #' @examples
 #' ## Load the database 

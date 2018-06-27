@@ -14,7 +14,7 @@ getStructure(x, allele)
 \item{allele}{The alleles of interest as a character vector.}
 }
 \value{
-A \code{\link[GenomicAlignments]{GAlignments}} object with all gene
+A \code{\link[GenomicRanges]{GRanges}} object with all gene
   structures.
 }
 \description{

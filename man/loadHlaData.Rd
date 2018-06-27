@@ -13,5 +13,6 @@ an \code{\link{IpdDb}} object containing the database.
 Load the IPD IMGT/HLA database
 }
 \examples{
+## Load the HLA database
 hla <- loadHlaData()
 }
