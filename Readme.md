@@ -2,16 +2,14 @@ ipdDb
 =============
 
 Database package of HLA and KIR alleles from the 
-[IPD IMGT/HLA](https://www.ebi.ac.uk/ipd/imgt/hla/) and 
-[IPD KIR](https://www.ebi.ac.uk/ipd/kir/) database.
+[IPD IMGT/HLA](https://www.ebi.ac.uk/ipd/imgt/hla/) | [Github](https://github.com/ANHIG/IMGTHLA) and 
+[IPD KIR](https://www.ebi.ac.uk/ipd/kir/) | [Github](https://github.com/ANHIG/IPDKIR) databases.
 
 Reference:
 
->Robinson J, Maccari G, Marsh SGE, Walter L, Blokhuis J, Bimber B, Parham P, De Groot NG, Bontrop RE, Guethlein LA, and Hammond JA
-
->KIR Nomenclature in non-human species
-
->Immunogenetics (2018), in preparation
+>Robinson J, Maccari G, Marsh SGE, Walter L, Blokhuis J, Bimber B, Parham P, De Groot NG, Bontrop RE, Guethlein LA, and Hammond JA  
+KIR Nomenclature in non-human species  
+Immunogenetics (2018), in preparation
 
 
 
@@ -34,20 +32,20 @@ hla <- loadHlaData()
 available_loci <- hla$getLoci()
 
 ## get all alleles of a locus
-alleles <- hla$getAlleles(available_loci[1]))
+alleles <- hla$getAlleles(available_loci[1])
 alleles <- hla$getAlleles("HLA-A")
 
 ## get all sequences of a bunch of alleles as DNAStringSet
-sequences <- hla$getReferences(alleles)
-sequences <- hla$getReferences(c("HLA-A*01:01:01:01", "HLA-A*01:01:01:03" ))
+sequences <- hla$getReference(alleles)
+sequences <- hla$getReference(c("HLA-A*01:01:01:01", "HLA-A*01:01:01:03" ))
 
 ## get the closest complete reference for ONE allele as DNAStringSet
 closest_complete <- hla$getClosestComplete(alleles[1])
 closest_complete <- hla$getClosestComplete("HLA-A*01:01:01:01")
 
 ## Get the gene structure for a bunch of alleles as GRanges object
-structures <- hla$getStructure(ipd.Hsapiens.db, alleles)
-structures <- hla$getStructure(ipd.Hsapiens.db, c("HLA-A*01:01:01:01", "HLA-A*01:01:01:03" ))
+structures <- hla$getStructure(alleles)
+structures <- hla$getStructure(c("HLA-A*01:01:01:01", "HLA-A*01:01:01:03" ))
 
 ```
 
