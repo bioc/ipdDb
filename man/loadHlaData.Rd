@@ -4,7 +4,11 @@
 \alias{loadHlaData}
 \title{Load the IPD IMGT/HLA database}
 \usage{
-loadHlaData()
+loadHlaData(version = "Latest")
+}
+\arguments{
+\item{version}{Either a valid version of the IPD IMGT/HLA database or 
+"Latest" to fetch the latest version}
 }
 \value{
 an \code{\link{IpdDb}} object containing the database.

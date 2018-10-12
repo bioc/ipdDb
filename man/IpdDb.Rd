@@ -42,17 +42,6 @@ This class extends the
 \code{\link[AnnotationDbi:AnnDbObj-class]{AnnotationDbi::AnnDbObj-class}}
 object by higher level methods for sequence and annotation retrieval.
 blubb
-
-Columns method queries all columns present in the database
-
-The keytypes method returns all columns that can be used as keytypes to 
-  retrieve keys.
-
-The keys method gets all keys for a give keytype, i.e. all unique entries of
-  the keytype.
-
-The select method queries the database for the values of all give columns for
-  a set of keys that match a specified keytype.
 }
 \section{Slots}{
 
@@ -90,4 +79,7 @@ keys <- keys(hla, kt)
 cols <- cols[1:10]
 res <- select(hla, keys, cols, kt)
   
+}
+\seealso{
+\code{\link[AnnotationDbi:AnnDbObj-class]{AnnotationDbi::AnnDbObj-class}}
 }

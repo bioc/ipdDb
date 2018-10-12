@@ -4,7 +4,11 @@
 \alias{loadKirData}
 \title{Load the IPD KIR database}
 \usage{
-loadKirData()
+loadKirData(version = "Latest")
+}
+\arguments{
+\item{version}{Either a valid version of the IPD KIR database or "Latest" to
+fetch the latest version}
 }
 \value{
 an \code{\link{IpdDb}} object containing the database.

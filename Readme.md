@@ -47,6 +47,9 @@ closest_complete <- hla$getClosestComplete("HLA-A*01:01:01:01")
 structures <- hla$getStructure(alleles)
 structures <- hla$getStructure(c("HLA-A*01:01:01:01", "HLA-A*01:01:01:03" ))
 
+## specifiy the database version
+hla <- loadHlaData(version = "3.32.0")
+
 ```
 
 

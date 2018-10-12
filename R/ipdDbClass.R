@@ -11,7 +11,7 @@
 #' @aliases IpdDb 
 #' @rdname IpdDb
 #' @seealso 
-#' \code{\link[AnnotationDbi:AnnDbObj-class]{AnnotationDbi::AnnDbObj-class}
+#'   \code{\link[AnnotationDbi:AnnDbObj-class]{AnnotationDbi::AnnDbObj-class}}
 #' @slot getDbVersion() Get the version of the original ipd database
 #' @slot getLoci() get all loci from a database, see 
 #'   \code{\link{getLoci}}.
