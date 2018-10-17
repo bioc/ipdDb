@@ -1,5 +1,5 @@
 hlaMetadata <- data.frame(
-  Title = "Allele data from the IPD IMGT/HLA database",
+  Title = "Allele data from the IPD IMGT/HLA database version 3.32.0",
   Description = paste0("Data for all alleles of selected HLA loci (HLA-A, -B, 
   -C, -DPB1, -DQB1 and -DRB1). The allele annotation, sequence, gene structure
   and the (sequence-based) closest allele in full-length is stored. 
@@ -23,7 +23,7 @@ hlaMetadata <- data.frame(
   Tags = "ipd:hla:IMGT/HLA:alleles"
 )
 hlaMetadata <- rbind(hlaMetadata, data.frame(
-  Title = "Allele data from the IPD IMGT/HLA database",
+  Title = "Allele data from the IPD IMGT/HLA database version 3.33.0",
   Description = paste0("Data for all alleles of selected HLA loci (HLA-A, -B, 
   -C, -DPB1, -DQB1 and -DRB1). The allele annotation, sequence, gene structure
   and the (sequence-based) closest allele in full-length is stored. 
@@ -47,7 +47,7 @@ hlaMetadata <- rbind(hlaMetadata, data.frame(
   Tags = "ipd:hla:IMGT/HLA:alleles"
 ))
 kirMetadata <- data.frame(
-  Title = "Allele data from the IPD KIR database",
+  Title = "Allele data from the IPD KIR database version 2.7.1",
   Description = paste0("Data for the alleles of all KIR loci in the database. 
   The allele annotation, sequence, gene structure and the (sequence-based) 
   closest allele in full-length is stored. 

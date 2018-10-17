@@ -1,19 +1,19 @@
 "","Title","Description","BiocVersion","Genome","SourceType","SourceUrl","SourceVersion","Species","TaxonomyId","Coordinate_1_based","DataProvider","Maintainer","RDataClass","DispatchClass","RDataPath","Tags"
-"1","Allele data from the IPD IMGT/HLA database","Data for all alleles of selected HLA loci (HLA-A, -B, 
+"1","Allele data from the IPD IMGT/HLA database version 3.32.0","Data for all alleles of selected HLA loci (HLA-A, -B, 
   -C, -DPB1, -DQB1 and -DRB1). The allele annotation, sequence, gene structure
   and the (sequence-based) closest allele in full-length is stored. 
   Reference:
   Robinson J, Maccari G, Marsh SGE, Walter L, Blokhuis J, Bimber B, Parham P, 
   De Groot NG, Bontrop RE, Guethlein LA, and Hammond JA
   KIR Nomenclature in non-human species Immunogenetics (2018), in preparation","3.8","no genome data","Zip","https://github.com/ANHIG/IMGTHLA/blob/Latest/xml/hla.xml.zip","3.32.0","Homo sapiens",9606,TRUE,"EMBL-EBI","Steffen Klasberg <klasberg@dkms-lab.de>","data.frame, DNAStringSet, GRanges","SQLiteFile","ipdDb/ipdHLA_3.32.0.sqlite","ipd:hla:IMGT/HLA:alleles"
-"2","Allele data from the IPD IMGT/HLA database","Data for all alleles of selected HLA loci (HLA-A, -B, 
+"2","Allele data from the IPD IMGT/HLA database version 3.33.0","Data for all alleles of selected HLA loci (HLA-A, -B, 
   -C, -DPB1, -DQB1 and -DRB1). The allele annotation, sequence, gene structure
   and the (sequence-based) closest allele in full-length is stored. 
   Reference:
   Robinson J, Maccari G, Marsh SGE, Walter L, Blokhuis J, Bimber B, Parham P, 
   De Groot NG, Bontrop RE, Guethlein LA, and Hammond JA
   KIR Nomenclature in non-human species Immunogenetics (2018), in preparation","3.8","no genome data","Zip","https://github.com/ANHIG/IMGTHLA/blob/Latest/xml/hla.xml.zip","3.33.0","Homo sapiens",9606,TRUE,"EMBL-EBI","Steffen Klasberg <klasberg@dkms-lab.de>","data.frame, DNAStringSet, GRanges","SQLiteFile","ipdDb/ipdHLA_3.33.0.sqlite","ipd:hla:IMGT/HLA:alleles"
-"3","Allele data from the IPD KIR database","Data for the alleles of all KIR loci in the database. 
+"3","Allele data from the IPD KIR database version 2.7.1","Data for the alleles of all KIR loci in the database. 
   The allele annotation, sequence, gene structure and the (sequence-based) 
   closest allele in full-length is stored. 
   Reference:
