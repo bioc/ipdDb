@@ -11,8 +11,9 @@
 #' @export
 loadHlaData <- function(version = "Latest") {
   accNumber <- switch(version,
-                      "Latest" = "AH63658",
-                      "3.32.0"  = "AH63658",
+                      "Latest" = "AH66146",
+                      "3.32.0" = "AH63658",
+                      "3.33.0" = "AH66146",
                       NULL)
   if (is.null(accNumber))
     stop(sprintf("IPD IMGT/HLA version %s in not yet included or exist at all", 
