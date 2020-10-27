@@ -8,7 +8,7 @@ Description: All alleles from the IPD IMGT/HLA
     De Groot NG, Bontrop RE, Guethlein LA, and Hammond JA
     KIR Nomenclature in non-human species
     Immunogenetics (2018), in preparation.
-Version: 1.8.0
+Version: 1.9.0
 Author: Steffen Klasberg
 Maintainer: Steffen Klasberg <klasberg@dkms-lab.de>
 Depends: R (>= 3.5.0), methods, AnnotationDbi (>= 1.43.1), AnnotationHub
